@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLIET Mentorship Platform</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>SLIET Mentorship Platform</h1>
+    <img src="sliet logo.png">
+    <div>
+        <p>Sant Longowal Institute Of Engineering and Technology</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="faculty-profiles">
+      <h2>Faculty Profiles</h2>
+      <ul>
+        <li>Faculty Name</li>
+        <li>Area of Expertise</li>
+        <li>Time Slot</li>
+        </ul>
+    </section>
+
+    <section id="booking-system">
+      <h2>Book a Mentorship Session</h2>
+      <form id="booking-form">
+        <label for="mentor-select">Select Mentor:</label>
+        <select id="mentor-select">
+          </select>
+        <label for="date-select">Select Date:</label>
+        <input type="date" id="date-select">
+        <button type="submit">Book Session</button>
+      </form>
+    </section>
+
+    <section id="communication">
+      <h2>ChatBox</h2>
+      <div class="chat-window">
+        </div>
+      <form id="message-form">
+        <input type="text" id="message-input" placeholder="Enter your message" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy;SLIET
+  </footer>
+
+
+</body>
+</html>

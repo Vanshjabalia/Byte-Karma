@@ -1,0 +1,77 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f8fcfad7;
+  }
+  
+header {
+    background-color: #1d3f63;
+    color: white;
+    padding: 20px;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    align-items: center;
+}
+img {
+    position: relative;
+    bottom: 100%;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+  
+section {
+    margin-bottom: 60px;
+}
+  
+.faculty-card {
+    background-color: white;
+    border: 1px solid #070000;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+.chat-window {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+  
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.message.sent {
+    background-color: #ff8800;
+    color: white;
+    text-align: right;
+}
+  
+.message.received {
+    background-color: #f5f5f5;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff8800;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #f5ac4d;
+    animation: backwards;
+}
+footer {
+    justify-content: center;
+}
